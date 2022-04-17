@@ -20,8 +20,7 @@ language_translator = LanguageTranslatorV3(
 )
 
 #language_translator.set_service_url('https://api.eu-gb.language-translator.watson.cloud.ibm.com')
-language_translator.set_service_url\
-    ('https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/bebfd8c4-f6e6-4c72-832a-8c634f67fa67')
+language_translator.set_service_url('https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/bebfd8c4-f6e6-4c72-832a-8c634f67fa67')
 #language_translator.set_disable_ssl_verification(True)
 
 def english_to_french(englishText):
